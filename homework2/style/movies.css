@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../assets/background.png");
+}
+
+nav {
+  background-image: url("../assets/banner.png");
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+header {
+  text-align: center;
+}
+.banner {
+  background-image: url("../assets/rottenbackground.png");
+}
+
+.item-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 5px;
+}
+
+.main-container {
+  margin: 0 auto;
+  border: 4px solid gray;
+  max-width: 960px;
+}
+
+.main-content {
+  display: flex;
+}
+
+.review-comment {
+  border: 2px solid gray;
+  background-color: bisque;
+  padding: 5px;
+}
+
+.review-meta {
+  display: flex;
+  padding-top: 10px;
+}
+
+.commentor {
+}
+
+.review-percentage {
+  color: red;
+  font-weight: bold;
+  font-size: 5em;
+}
+
+.total-reviews {
+  color: white;
+}
+
+.review-container {
+  box-sizing: border-box;
+  margin: 5px;
+  width: calc(50% - 10px);
+  /* flex: 1; */
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+}
+
+.banana {
+  background-color: green;
+  flex: 1;
+}
+
+.apples {
+  padding: 10px;
+}
+
+.apples > p:first-of-type {
+  font-weight: bold;
+  margin: 0;
+}
+
+.apples > p {
+  margin-left: 30px;
+}
+
+.footer {
+  text-align: center;
+  background-color: green;
+}
